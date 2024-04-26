@@ -48,11 +48,3 @@ install -m 755 -Dp %{__cmake_builddir}/%{name} %{buildroot}%{_bindir}/%{name}
 %changelog
 * Fri Apr 26 2024 Vineel Sai <mail@vineelsai.com> 0.3.0-1
 - new package built with tito
-
-* Thu Apr 25 2024 Vineel Sai <mail@vineelsai.com> 0.6.0-1
-- new package built with tito
-
-* Thu Apr 25 2024 Vineel Sai <mail@vineelsai.com> 0.6.0-1
-- clone to new folder (mail@vineelsai.com)
-
-%autochangelog
