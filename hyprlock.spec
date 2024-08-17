@@ -1,5 +1,5 @@
 Name:           hyprlock
-Version:        0.3.0
+Version:        0.4.1
 Release:        1
 Summary:        Hyprland's GPU-accelerated screen locking utility
 
@@ -11,6 +11,9 @@ BuildRequires:  cmake
 BuildRequires:  mesa-libgbm-devel
 BuildRequires:  gcc-c++
 BuildRequires:  git
+BuildRequires:  libjpeg-turbo-devel
+BuildRequires:  hyprutils-devel
+BuildRequires:  file-devel
 
 BuildRequires:  pkgconfig(cairo)
 BuildRequires:  pkgconfig(glesv2)
@@ -18,6 +21,7 @@ BuildRequires:  pkgconfig(hyprlang)
 BuildRequires:  pkgconfig(pango)
 BuildRequires:  pkgconfig(pangocairo)
 BuildRequires:  pkgconfig(pam)
+BuildRequires:  pkgconfig(libwebp)
 BuildRequires:  pkgconfig(xkbcommon)
 BuildRequires:  pkgconfig(libdrm)
 BuildRequires:  pkgconfig(wayland-client)
